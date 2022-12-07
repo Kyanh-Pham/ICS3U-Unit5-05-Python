@@ -4,7 +4,7 @@
 # This program formats a address
 
 
-# this function formats address
+# This function formats address
 def format_address(
     full_name,
     street_number,
