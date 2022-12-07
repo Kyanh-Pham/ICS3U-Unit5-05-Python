@@ -19,7 +19,7 @@ def format_address(
     formatted = full_name + "\n"
     formatted = formatted + str(street_number)
     if apartment_number != None:
-        formatted = formatted  + "-" + str(apartment_number)
+        formatted = formatted + "-" + str(apartment_number)
     formatted = formatted + " " + street_name + "\n"
     formatted = formatted + city + " "
     formatted = formatted + province + "  "
