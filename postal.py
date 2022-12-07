@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 # Created by: Kyanh Pham
 # Created on: Nov 2022
-#
+# This program formats a address
 
 
+# this function formats address
 def format_address(
     full_name,
     street_number,
@@ -46,6 +47,7 @@ def main():
         if apartment_number != None:
             apartment_number = int(apartment_number)
         street_number = int(street_number)
+        # calls function
         Proper_address = format_address(
             full_name,
             street_number,
